@@ -1,0 +1,30 @@
+{
+  "name": "pushco",
+  "version": "0.1.0",
+  "description": "A nodejs implementation for the PUSH.co Notification Service API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capir/push.co-api"
+  },
+  "keywords": [
+    "push",
+    "push.co",
+    "pushco",
+    "notification-service"
+  ],
+  "author": "catalin.pirvu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capir/pushco/issues"
+  },
+  "homepage": "https://github.com/capir/push.co-api",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "util": "~0.10.3",
+    "eventemitter2": "~0.4.13"
+  }
+}
